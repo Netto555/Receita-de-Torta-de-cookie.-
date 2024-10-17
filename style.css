@@ -1,0 +1,76 @@
+@font-face{
+    font-family: netto;
+    src: url(./michael_2/);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header{
+    background-color: #cc9d71;
+    font-family: netto;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.box{
+    background-color: #c97c4abd;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+}
+
+.footer{
+    background-color: #cc9d71;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+.parallax1{
+    background-image: url(https://www.receiteria.com.br/wp-content/uploads/torta-de-cookie-com-recheio-de-nutella.jpeg);
+}
+.parallax2{
+    background-image: url(https://cdn.vnda.com.br/sigristpatisserie/2021/10/08/14_10_5_596_IMGP9381.jpg?v=1633714995);
+}
+.parallax3{
+    background-image: url(https://i.ytimg.com/vi/GE7Ng6kKAxg/maxresdefault.jpg);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
